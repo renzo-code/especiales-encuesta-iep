@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-sync-scripts */
 import React from "react"
 import styled from "styled-components"
 import NextHead from 'next/head'
+import Script from "next/script"
 
 import LayoutInterna from "../../layout/internas"
 
@@ -52,7 +52,7 @@ const Enero = () => {
         <meta property="fb:app_id" content="602624269799095" />
       </NextHead>
       <div class="flourish-embed" data-src="story/1808696">
-        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        <Script src="https://public.flourish.studio/resources/embed.js"></Script>
       </div>
     </LayoutInterna>
   )

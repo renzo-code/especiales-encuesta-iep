@@ -78,7 +78,7 @@ const SectionTwo = styled.div`
   }
 `
 const WrapperTitle = styled.div`
-  width: 300px;
+  width: 220px;
   height: 40px;
   line-height: 0px;
   background-color: red;
