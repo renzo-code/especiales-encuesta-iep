@@ -73,8 +73,11 @@ const SectionTwo = styled.div`
   margin-left: 20px;
 
   @media (max-width: 830px){
-    width: 100%;
+    width: 80%;
     margin-left: 0;
+  }
+  @media (max-width: 530px){
+    width: 100%;
   }
 `
 const WrapperTitle = styled.div`
@@ -111,6 +114,10 @@ const WrapperImage = styled.div`
   overflow: hidden;
 
   @media (max-width: 830px){
+    width: 80%;
+  }
+  
+  @media (max-width: 530px){
     width: 100%;
   }
 

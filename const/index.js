@@ -5,12 +5,12 @@ export const accordeonData2023 = [
     image: "https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg",
     redirect: "/01-23-enero-1"
   },
-  {
-    mes: "Enero II",
-    title: "El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza al Congreso, según IEP",
-    image: "https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg",
-    redirect: "/01-23-enero-1"
-  }
+  // {
+  //   mes: "Enero II",
+  //   title: "El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza al Congreso, según IEP",
+  //   image: "https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg",
+  //   redirect: "/01-23-enero-1"
+  // }
 ]
 
 export const accordeonData2022 = [
@@ -79,6 +79,12 @@ export const accordeonData2022 = [
     title: "Si inhabilitan al presidente Pedro Castillo, un 87% preferiría que se convoquen nuevas elecciones",
     image: "https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg",
     redirect: "https://data.larepublica.pe/encuesta-iep-aprobacion-desaprobacion-peru-presidente-congreso-de-la-republica/noviembre-2022/"
+  },
+  {
+    mes: "Diciembre",
+    title: "Un 83% cree que se deben adelantar las elecciones generales",
+    image: "https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg",
+    redirect: "https://data.larepublica.pe/encuesta-iep-aprobacion-desaprobacion-peru-presidente-congreso-de-la-republica/"
   }
 ]
 
