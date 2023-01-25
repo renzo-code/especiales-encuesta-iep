@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-// import SocialBar from '../SocialBar'
+import SocialBar from '../SocialBar'
 
 const Header = () => {
   return(
@@ -8,7 +8,7 @@ const Header = () => {
       <WrapperImg>
         <Logo src='/images/lr-especiales-logo.png' />
       </WrapperImg>
-      {/* <SocialBar/> */}
+      <SocialBar/>  
     </Content>
   )
 }

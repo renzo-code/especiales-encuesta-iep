@@ -4,7 +4,7 @@ import styled from "styled-components"
 import Layout from "../../layout/default"
 import NextHead from "next/head"
 
-const Diciembre = () => {
+const Noviembre = () => {
   return (
     <>
       <Layout>
@@ -16,7 +16,7 @@ const Diciembre = () => {
           <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.larepublica.pe/favicon-16x16.png" />
           <link rel="icon" type="image/x-icon" href="https://cdn.larepublica.pe/favicon.ico"></link>
           <link rel="canonical" href="" />
-          <title>Encuesta IEP: Diciembre 2022</title>
+          <title>Encuesta IEP: Noviembre 2022</title>
           <meta name="title" content="" />
           <meta name="description" content="" />
           <meta httpEquiv="content-language" content="es" />
@@ -51,10 +51,10 @@ const Diciembre = () => {
           <meta property="fb:pages" content="145820412845" />
           <meta property="fb:app_id" content="602624269799095" />
         </NextHead>
-        soy diciembre 2022
+        soy Noviembre 2022
       </Layout>
     </>
   )
 }
 
-export default Diciembre
+export default Noviembre

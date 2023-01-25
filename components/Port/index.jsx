@@ -7,23 +7,10 @@ const Port = () => {
     <>
       <Content>
         <WrapperImage>
-          <img src='https://especiales.larepublica.pe/congreso-votacion/img/portada-congreso.jpg' alt='' />
+          <img src='./images/portada.png' alt='' />
         </WrapperImage>
         <WrapperText>
-          <h1>ENCUESTA IEP - LA REPUBLICA : ¿QUIERES SABER QUE OPINA LA POBLACIÓN SOBRE LOS TEMAS TAN CRÍTICOS QUE PASA EL PERÚ EN ESTOS MOMENTOS?</h1>
-          {/* <h2>
-            Bajada bajada bajada bajada bajada
-            Bajada bajada bajada bajada bajada
-            Bajada bajada bajada bajada bajada
-            Bajada bajada bajada bajada bajada
-            Bajada bajada bajada 
-            Bajada bajada bajada bajada bajada
-            Bajada bajada bajada bajada bajada
-            Bajada bajada bajada bajada bajada
-            Bajada bajada bajada bajada bajada
-            Bajada bajada bajada 
-            Bajada bajada bajada 
-          </h2> */}
+          <h1>ENCUESTA IEP: ¿QUIERES SABER QUE OPINA LA POBLACIÓN SOBRE LOS TEMAS TAN CRÍTICOS QUE PASA EL PERÚ EN ESTOS MOMENTOS?</h1>
         </WrapperText>
       </Content>
     </>
@@ -33,7 +20,7 @@ const Port = () => {
 export default Port
 
 const Content = styled.div`
-  width: 100%;
+  width: 100% !important;
   max-height: 100vw;
   height: 100%;
   background-color: black;
@@ -51,7 +38,6 @@ const WrapperImage = styled.div`
     object-fit: cover;
     width: 100%;
     height: auto;
-    /* height: calc(100vh - 70px) */
   }
 `
 const WrapperText = styled.div`
@@ -67,6 +53,10 @@ const WrapperText = styled.div`
     padding: 15px 10px;
     background: linear-gradient(180deg, transparent 0%, #000 40%);
   }
+  @media (max-width: 530px) {
+    background: linear-gradient(180deg, transparent 0%, #000 60%);
+    padding: 5px 5px;
+  }
 
   h1 {
     font-size: 40px;
@@ -74,6 +64,7 @@ const WrapperText = styled.div`
     color: white;
     padding-bottom: 20px;
     font-family: sans-serif;
+    font-weight: bold;
     text-shadow: rgb(0 0 0) 0px 0px 0.2em, rgb(0 0 0) 0px 0px 0.2em, rgb(0 0 0) 0px 0px 0.2em;
 
     @media (max-width: 1000px) {
@@ -85,9 +76,9 @@ const WrapperText = styled.div`
       font-size: 25px;
       line-height: 27px;
     }
-    @media (max-width: 450px) {
-      font-size: 23px;
-      line-height: 23px;
+    @media (max-width: 530px) {
+      font-size: 20px;
+      line-height: 20px;
       padding-bottom: 0px;
     }
   }

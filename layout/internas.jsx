@@ -3,9 +3,8 @@ import styled from 'styled-components'
 import NextHead from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import Port from '../components/Port'
 
-const Layout = ({children}) => {
+const LayoutInterna = ({children}) => {
   return(
     <>
       <NextHead>
@@ -52,7 +51,6 @@ const Layout = ({children}) => {
         <meta property="fb:app_id" content="602624269799095"/>
       </NextHead>
       <Header/>
-      <Port/>
       <Wrapper>
         <ContainerMain>
           {children}
@@ -63,7 +61,7 @@ const Layout = ({children}) => {
   )
 }
 
-export default Layout
+export default LayoutInterna
 
 const Wrapper = styled.div`
   width: 100%;
@@ -71,7 +69,7 @@ const Wrapper = styled.div`
 `
 const ContainerMain = styled.main`
   /* box-shadow: 1px 11px 10px 5px rgba(0,0,0,0.7); */
-  /* max-width: 1440px; */
+  max-width: 1440px;
   width: 100%;
   margin: auto;
   padding: 0;

@@ -1,5 +1,6 @@
-import '../styles/global.scss'
+import '../styles/global.css'
 import '../styles/style.scss'
+import '../styles/globalN.scss'
 import App from 'next/app'
 
 class MyApp extends App {

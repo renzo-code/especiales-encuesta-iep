@@ -1,12 +1,13 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import React from "react"
 import styled from "styled-components"
 import NextHead from 'next/head'
 
-import Layout from "../../layout/default"
+import LayoutInterna from "../../layout/internas"
 
 const Enero = () => {
   return (
-    <Layout>
+    <LayoutInterna>
       <NextHead>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
@@ -50,8 +51,10 @@ const Enero = () => {
         <meta property="fb:pages" content="145820412845" />
         <meta property="fb:app_id" content="602624269799095" />
       </NextHead>
-      soy enero 2023
-    </Layout>
+      <div class="flourish-embed" data-src="story/1808696">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+      </div>
+    </LayoutInterna>
   )
 }
 
