@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
 import React from 'react'
 import styled from 'styled-components'
 
@@ -9,7 +8,7 @@ const NoticeDestacada = () => {
         <Blockuot>
           <Redirect href="/01-23-enero">
             <WrapperImage>
-              <img src="https://larepublica.cronosmedia.glr.pe/original/2022/12/13/63861499209f4014c101d68e.jpg" />
+              <img src="https://larepublica.cronosmedia.glr.pe/original/2022/12/13/63861499209f4014c101d68e.jpg" alt=''/>
             </WrapperImage>
             <SectionTwo>
               <div className='wrap-content'>
@@ -84,7 +83,7 @@ const WrapperTitle = styled.div`
   width: 220px;
   height: 40px;
   line-height: 0px;
-  background-color: red;
+  background-color: #FF0000;
   margin-bottom: 40px;
 
   @media (max-width: 830px){
@@ -98,15 +97,8 @@ const Title = styled.h2`
   font-size: 22px;
   text-align: center;
   padding: 20px 0;
-  color: white;
+  color: #FFFFFF;
   font-weight: 900;
-`
-const BlockNotice = styled.div`
-  height: auto;
-  /* max-width: 400px; */
-  width: auto;
-  background-color: red;
-  /* margin: 1px auto;   */
 `
 const WrapperImage = styled.div`
   height: auto;
@@ -135,8 +127,6 @@ const WrapperImage = styled.div`
   }
 `
 const WrapperText = styled.div`
-  /* padding: 15px;
-  bottom: 0; */
   height: auto;
   width: 100%;
   
@@ -147,8 +137,6 @@ const WrapperText = styled.div`
     width: 100%;
     line-height: 22px;
     font-weight: 100;
-    /* text-shadow: rgb(0 0 0) 0px 0px 0.2em, rgb(0 0 0) 0px 0px 0.2em, rgb(0 0 0) 0px 0px 0.2em; */
-    /* background-color: rgba(0,0,0,0.5); */
 
     &:hover{
       text-decoration: underline;

@@ -32,6 +32,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
+          <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
           {this.props.styles}
         </Head>
         <body>

@@ -153,7 +153,6 @@ const Home = () => {
 export default Home
 
 const Container = styled.div`
-  max-width: 1440px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 `

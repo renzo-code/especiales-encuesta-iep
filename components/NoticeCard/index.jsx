@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const NoticeCard = ({ title, redirect, image, mounth }) => {
   return (
     <>
-      <a href={redirect}>
+      <a  href={redirect}>
         <BlockNotice>
           <WrapperImage>
             <img src={image} alt={title}/>
@@ -26,8 +26,7 @@ const BlockNotice = styled.div`
   height: auto;
   max-width: 400px;
   width: 100%;
-  /* background-color: red; */
-  margin: 1px auto;
+  margin: 0 auto 20px;
   background-color: white;
 `
 const WrapperImage = styled.div`
