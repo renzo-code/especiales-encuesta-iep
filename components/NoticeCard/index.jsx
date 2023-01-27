@@ -2,11 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 // import Link from 'next/link'
 
-const NoticeCard = ({ title, redirect, image, mounth }) => {
+const NoticeCard = ({ title, redirect, image, mounth, i }) => {
   return (
     <>
-      <a  href={redirect}>
-        <BlockNotice>
+      <a href={redirect}>
+        <BlockNotice key={i}>
           <WrapperImage>
             <img src={image} alt={title}/>
           </WrapperImage>

@@ -10,7 +10,7 @@ const Port = () => {
           <img src='./images/portada.png' alt='' />
         </WrapperImage>
         <WrapperText>
-          <h1>ENCUESTA IEP: ¿QUIERES SABER QUE OPINA LA POBLACIÓN SOBRE LOS TEMAS TAN CRÍTICOS QUE PASA EL PERÚ EN ESTOS MOMENTOS?</h1>
+          <h1>TODAS LAS ENCUESTAS IEP</h1>
         </WrapperText>
       </Content>
     </>
@@ -44,17 +44,18 @@ const WrapperText = styled.div`
   position: absolute;
   bottom: 0px;
   padding: 30px 25px;
-  background: linear-gradient(180deg, transparent 0%, #000 15%);
+  width: 100%;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.7) 10%);
 
   @media (max-width: 1000px) {
     padding: 15px 25px;
   }
   @media (max-width: 670px) {
     padding: 15px 10px;
-    background: linear-gradient(180deg, transparent 0%, #000 40%);
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.7) 40%);
   }
   @media (max-width: 530px) {
-    background: linear-gradient(180deg, transparent 0%, #000 60%);
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.7) 60%);
     padding: 5px 5px;
   }
 
