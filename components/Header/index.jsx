@@ -22,13 +22,13 @@ const Content = styled.div`
   /* max-width: 1440px; */
   width: 100%;
   /* margin: 0 auto; */
-  height: 80px;
+  height: 74px;
   background-color: #D3D3D3;
-  border-bottom: red solid 5px;
+  border-bottom: red solid 4px;
 `
 const WrapperImg = styled.div`
   height: auto;
-  width: 210px;
+  width: 190px;
   margin-left: 20px;
 
   @media (max-width: 470px){

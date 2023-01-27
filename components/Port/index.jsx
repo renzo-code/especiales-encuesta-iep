@@ -42,9 +42,9 @@ const WrapperImage = styled.div`
 `
 const WrapperText = styled.div`
   position: absolute;
-  bottom: 10px;
-  padding: 40px 25px;
-  background: linear-gradient(180deg, transparent 0%, #000 20%);
+  bottom: 0px;
+  padding: 30px 25px;
+  background: linear-gradient(180deg, transparent 0%, #000 15%);
 
   @media (max-width: 1000px) {
     padding: 15px 25px;
@@ -62,7 +62,6 @@ const WrapperText = styled.div`
     font-size: 40px;
     line-height: 1.3;
     color: white;
-    padding-bottom: 20px;
     font-family: sans-serif;
     font-weight: bold;
     text-shadow: rgb(0 0 0) 0px 0px 0.2em, rgb(0 0 0) 0px 0px 0.2em, rgb(0 0 0) 0px 0px 0.2em;
