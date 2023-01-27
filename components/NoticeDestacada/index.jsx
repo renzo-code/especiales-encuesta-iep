@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styled from 'styled-components'
 
@@ -8,7 +9,11 @@ const NoticeDestacada = () => {
         <Blockuot>
           <Redirect href="/01-23-enero">
             <WrapperImage>
-              <img src="https://larepublica.cronosmedia.glr.pe/original/2022/12/13/63861499209f4014c101d68e.jpg" alt=''/>
+              <img 
+                  src="https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg" 
+                  alt='El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza 
+                  al Congreso, según IEP'
+              />
             </WrapperImage>
             <SectionTwo>
               <div className='wrap-content'>
@@ -17,7 +22,8 @@ const NoticeDestacada = () => {
                 </WrapperTitle>
                   <WrapperText>
                     <h2>
-                      El 68,2% de las mesas de diálogo por conflictos sociales se instaló después de algún hecho de violencia
+                      El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% 
+                      rechaza al Congreso, según IEP
                     </h2>
                   </WrapperText>
               </div>

@@ -66,14 +66,21 @@ export default LayoutInterna
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
+  background-color: #F1F1F0;
+
+  @media (max-width: 1180px )
+  {
+    padding: 0 20px;
+  }
 `
 const ContainerMain = styled.main`
   /* box-shadow: 1px 11px 10px 5px rgba(0,0,0,0.7); */
-  max-width: 1440px;
+  max-width: 1140px;
+  background-color: #F1F1F0;
   width: 100%;
   margin: auto;
   padding: 0;
   min-height: calc(100vh - 450px);
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  padding: 20px 0;
 `

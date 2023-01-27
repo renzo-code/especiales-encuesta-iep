@@ -6,19 +6,14 @@ const Footer = () => {
     <>
       <Content>
         <Wrapper>
-          <Tip>Redacción:</Tip><Text>LR Especiales</Text>
-        </Wrapper>
-        <Wrapper>
-          <Tip>Coordinación y gráficas:</Tip><Text>LR Especiales</Text>
+          <Tip>Redacción:</Tip><Text>La República</Text>
         </Wrapper>
         <Wrapper>
           <Tip>Desarrollo Web:</Tip><Text>Renzo Neira</Text>
         </Wrapper>
-        <Wrapper>
-          <Tip>Edición:</Tip><Text>LR Especiales</Text>
-        </Wrapper>
         <br></br>
         <Text>© Grupo La República</Text>
+        <br></br>
         <Text>Todos los derechos reservados.</Text>
         <br></br><br></br>
       </Content>
@@ -32,12 +27,12 @@ const Content = styled.div`
   height: auto;
   width: 100%;
   margin: 0 auto;
-  padding: 30px 0 0;
-  background-color: #EEEEEE;
+  padding: 20px 0 0;
+  background-color: #F1F1F0;
 `
 const Tip = styled.h2`
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
 `
 const Text = styled.h2`
@@ -52,4 +47,5 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 5px;
+  margin-bottom: 7px;
 `

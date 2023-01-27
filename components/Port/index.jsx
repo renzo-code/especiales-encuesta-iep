@@ -42,9 +42,9 @@ const WrapperImage = styled.div`
 `
 const WrapperText = styled.div`
   position: absolute;
-  bottom: 0px;
+  bottom: 10px;
   padding: 40px 25px;
-  background: linear-gradient(180deg, transparent 0%, #000 25%);
+  background: linear-gradient(180deg, transparent 0%, #000 20%);
 
   @media (max-width: 1000px) {
     padding: 15px 25px;

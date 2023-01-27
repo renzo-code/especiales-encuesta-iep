@@ -3,13 +3,13 @@ export const accordeonData2023 = [
     mes: "Enero",
     title: "El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza al Congreso, según IEP",
     image: "https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg",
-    redirect: "/01-23-enero-1"
+    redirect: "/01-23-enero"
   },
   // {
   //   mes: "Enero II",
   //   title: "El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza al Congreso, según IEP",
   //   image: "https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg",
-  //   redirect: "/01-23-enero-1"
+  //   redirect: "/01-23-enero-2"
   // }
 ]
 

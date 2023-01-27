@@ -3,8 +3,6 @@ import styled from "styled-components"
 
 
 import Layout from "../layout/default"
-import BlockEncuesta2022 from "../components/BlockEncuesta2022"
-import BlockEncuesta2023 from "../components/BlockEncuesta2023"
 import NoticeDestacada from "../components/NoticeDestacada"
 import { accordeonData2021, accordeonData2022, accordeonData2023 } from "../const"
 import PollAge from "../components/PollAge"
@@ -71,8 +69,6 @@ const Home = () => {
               })
             }
           </PollAge>
-          {/* <BlockEncuesta2023 />
-        <BlockEncuesta2022 /> */}
         </Container>
       </Layout>
       <style jsx="true">{`
