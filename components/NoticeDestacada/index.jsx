@@ -7,10 +7,10 @@ const NoticeDestacada = () => {
     <>
       <Container>
         <Blockuot>
-          <Redirect href="/01-23-enero">
+          <Redirect href="/enero-2023-I">
             <WrapperImage>
               <img 
-                  src="https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg" 
+                  src="https://origin.cronosmedia.glr.pe/large/2023/01/27/lg_63d444b7b86e87136d140610.jpg" 
                   alt='El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza 
                   al Congreso, según IEP'
               />

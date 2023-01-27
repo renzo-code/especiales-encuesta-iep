@@ -9,8 +9,8 @@ const SocialBar = () => {
     <>
       <div className='social'>
         <div className='wrapperF'>
-          <FacebookShareButton url='' 
-            quote=""
+          <FacebookShareButton url='https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo' 
+            quote="Encuesta IEP Perú: Aprobación y desaprobación de la presidenta Dina Boluarte y el Congreso"
           >
             <ContentIconF>
               <FontAwesomeIcon icon={faFacebookF}/>
@@ -19,8 +19,8 @@ const SocialBar = () => {
         </div>
 
         <div>
-          <TwitterShareButton url='' 
-            title=""
+          <TwitterShareButton url='https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo' 
+            title="Encuesta IEP Perú: Aprobación y desaprobación de la presidenta Dina Boluarte y el Congreso"
           >
             <ContentIconT>
               <FontAwesomeIcon icon={faTwitter}/>
@@ -29,8 +29,8 @@ const SocialBar = () => {
         </div>
 
         <div>
-          <WhatsappShareButton url='' 
-            title=""
+          <WhatsappShareButton url='https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo' 
+            title="Encuesta IEP Perú: Aprobación y desaprobación de la presidenta Dina Boluarte y el Congreso"
           >
             <ContentIconW>
               <FontAwesomeIcon icon={faWhatsapp}/>
