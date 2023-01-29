@@ -6,7 +6,7 @@ const Header = () => {
   return(
     <Content>
       <WrapperImg>
-        <Logo src='/images/lr-especiales-logo.png' />
+        <Logo src='https://origin.cronosmedia.glr.pe/large/2023/01/27/lg_63d4558adf3bf1086c392bb8.jpg' />
       </WrapperImg>
       <SocialBar/>  
     </Content>

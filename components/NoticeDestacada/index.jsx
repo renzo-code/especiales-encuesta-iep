@@ -51,7 +51,7 @@ const Container = styled.div`
   height: auto;
   width: 100%;
   margin: 20px auto;
-  background-image: url("/images/fondo-destacado.jpg");
+  background-image: url("./images/fondo-destacado.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 `
