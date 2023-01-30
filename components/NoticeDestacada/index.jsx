@@ -2,29 +2,25 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const NoticeDestacada = () => {
+const NoticeDestacada = ({ redirect, image, title, bajada }) => {
   return (
     <>
       <Container>
         <Blockuot>
-          <Redirect href="/enero-2023-I">
+          <Redirect href={redirect}>
             <WrapperImage>
               <img 
-                  src="https://origin.cronosmedia.glr.pe/large/2023/01/27/lg_63d444b7b86e87136d140610.jpg" 
-                  alt='El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza 
-                  al Congreso, según IEP'
+                  src={image} 
+                  alt={bajada}
               />
             </WrapperImage>
             <SectionTwo>
               <div className='wrap-content'>
                 <WrapperTitle>
-                  <Title>ÚLTIMA ENCUESTA</Title>
+                  <Title>{title}</Title>
                 </WrapperTitle>
                   <WrapperText>
-                    <h2>
-                      El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% 
-                      rechaza al Congreso, según IEP
-                    </h2>
+                    <h2>{bajada}</h2>
                   </WrapperText>
               </div>
             </SectionTwo>
