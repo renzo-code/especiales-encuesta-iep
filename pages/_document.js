@@ -33,7 +33,20 @@ export default class MyDocument extends Document {
       <Html lang="es">
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+          <meta name="google-site-verification" content="W-TjZzBM8yhacjHbq4YdHdHVQ-RV2XfXhZHhk2k7Zjc" />
           
+          {/* Global site tag (gtag.js) - Google Analytics */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-N43VHLW" />
+          <script dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag("js",new Date);
+              gtag("config","GTM-N43VHLW");
+            `
+          }}>
+          </script>
+
           {/* SCHEMAS BREADCRUMB */}
           <script
             type="application/ld+json"
@@ -47,7 +60,7 @@ export default class MyDocument extends Document {
                   "position": 1,
                   "name": "El 73% de peruanos considera que lo más conveniente para el país es adelantar las elecciones para este 2023, según IEP",
                   "item": "https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/enero-2023-II/"  
-                  }{
+                  },{
                     "@type": "ListItem",
                   "position": 2,
                   "name": "El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza al Congreso, según IEP",

@@ -5,8 +5,8 @@ import styled from 'styled-components'
 const ButtonBack = () => {
   return (
     <Redirect 
-      // href='https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/'
-      href='/'
+      href='https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/'
+      // href='/'
     >
       <div>
         ENCUESTAS PASADAS

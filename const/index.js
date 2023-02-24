@@ -3,15 +3,15 @@ export const accordeonData2023 = [
     mes: "Enero",
     title: "El 71% de los peruanos desaprueba la gestión de Dina Boluarte y un 88% rechaza al Congreso, según IEP",
     image: "https://origin.cronosmedia.glr.pe/large/2023/01/27/lg_63d444b7b86e87136d140610.jpg",
-    // redirect: "https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/enero-2023-I/"
-    redirect: "/enero-2023-II"
+    redirect: "https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/enero-2023-I/"
+    // redirect: "/enero-2023-II"
   },
   {
     mes: "Enero II",
     title: "El 73% de peruanos considera que lo más conveniente para el país es adelantar las elecciones para este 2023, según IEP",
     image: "https://origin.cronosmedia.glr.pe/large/2023/01/28/lg_63d5b78afbf2ae006c55ba7a.jpg",
-    // redirect: "https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/enero-2023-II/"
-    redirect: "/enero-2023-I"
+    redirect: "https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/enero-2023-II/"
+    // redirect: "/enero-2023-I"
   }
 ]
 
@@ -86,7 +86,7 @@ export const accordeonData2022 = [
     mes: "Diciembre",
     title: "Un 83% cree que se deben adelantar las elecciones generales",
     image: "https://cdn.glitch.me/09ad6912-77fe-457b-af64-54b232bf7e67/ss.jpg",
-    redirect: "https://data.larepublica.pe/encuesta-iep-aprobacion-desaprobacion-peru-presidente-congreso-de-la-republica/"
+    redirect: " https://data.larepublica.pe/encuesta-iep-aprobacion-desaprobacion-peru-presidente-congreso-de-la-republica/diciembre-2022/"
   }
 ]
 

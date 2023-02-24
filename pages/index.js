@@ -16,8 +16,8 @@ const Home = () => {
         <Container>
           <NoticeDestacada 
             key={0}
-            redirect="/enero-2023-II"
-            // redirect="https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/enero-2023-II/"
+            // redirect="/enero-2023-II"
+            redirect="https://especiales.larepublica.pe/encuesta-iep-peru-aprobacion-desaprobacion-presidencia-congreso-de-la-republica-ejecutivo-legislativo/enero-2023-II/"
             image="https://origin.cronosmedia.glr.pe/large/2023/01/28/lg_63d5b78afbf2ae006c55ba7a.jpg"
             title="ÚLTIMA ENCUESTA"
             bajada="El 73% de peruanos considera que lo más conveniente para el país es adelantar las elecciones para este 2023, según IEP"

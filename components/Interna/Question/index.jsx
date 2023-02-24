@@ -30,4 +30,8 @@ const WrapperGrafic = styled.div`
   width: 100%;
   height: auto;
   margin: 50px auto;
+
+  .flourish-credit{
+    display: none;
+  }
 `
